@@ -17,6 +17,9 @@
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint ."
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",

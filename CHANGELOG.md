@@ -1,3 +1,18 @@
+## [0.2.0] - 2020-03-28
+
+### Added
+
+- Setup the S3 + Cloudfront infrastructure with Pulumi
+- Setup the automatic CI/CD pipeline with CircleCI
+
+### Changed
+
+- Updated the content of App.js
+
+### Removed
+
+- Removed the React logo image file - `logo.svg`
+
 ## [0.1.0] - 2020-03-28
 
 ### Added
