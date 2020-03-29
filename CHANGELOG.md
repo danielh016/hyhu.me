@@ -1,3 +1,17 @@
+## [0.3.0] - 2020-03-29
+
+### Added
+
+- Added the website content as a JSON file
+- Implemented and designed the Navbar
+- Yarn added `prop-types`, `bootstrap`, `react-bootstrap`, and `styled-components`
+- Set the primary font-family as `Montserrat`
+- Added `styleVariable.js` to store the commonly used style variables such as `colors`
+
+### Removed
+
+- Removed `App.css` and introduced `styled-components` with its CSS-in-JS functionalities to reduce the use of pure CSS in this project
+
 ## [0.2.0] - 2020-03-28
 
 ### Added

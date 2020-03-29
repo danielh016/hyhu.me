@@ -1,0 +1,158 @@
+{
+  "data": {
+    "introduction": {
+      "name": "Daniel Hu",
+      "type": "introduction",
+      "about": [
+        "I'm Daniel, a software developer located in Melbourne, Australia. I was born in Taipei, raised in Brisbane, spent several years studying back in Taiwan, then landed in Melbourne to finish my final degree and start my career. As a software dev, I enjoyed learning new tech and valued experience sharing by writing tech blogs."
+      ],
+      "contact": {
+        "email": "dan3388a@gmail.com"
+      },
+      "links": {
+        "github": "https://github.com/RainRush",
+        "linkedin": "https://www.linkedin.com/in/iamdanielhu/",
+        "medium": "https://medium.com/@danielhu95"
+      }
+    },
+    "experience": {
+      "sectionTitle": "Experience",
+      "type": "experience",
+      "content": [
+        {
+          "title": "Software Engineer",
+          "company": "Skand",
+          "description": [
+            "Frontend: React, Redux, Saga",
+            "Backend: Node",
+            "DevOps: AWS, CircleCI, Docker, Pulumi"
+          ]
+        },
+        {
+          "title": "Backend Developer",
+          "company": "Oma Web Technology",
+          "duration": "Sep 2016 - Mar 2017",
+          "description": [
+            "Managed to develop and deploy more than five customized SEO websites within three months.",
+            "Showed high ability on finding the solution of the problem, able to find the bugs and fix them with high efficiency and quality.",
+            "Worked with three other members as a team, showed great cooperation and production abilities."
+          ]
+        },
+        {
+          "title": "Software Development Intern",
+          "company": "TC Incubator",
+          "duration": "May 2015 - May 2016",
+          "description": [
+            "- Agile Developing Environment, trained to work both effectively and flexibly.",
+            "Improved UI and user workflow of the website, which boosted the signed up users from 15 to 200. According to Google Analysis, the average daily visitors increased from 50 to approximately 300.",
+            "Core member of this startup company. Worked closely with the company leader and learned to think both innovatively and critically."
+          ]
+        }
+      ]
+    },
+    "articles": {
+      "sectionTitle": "Articles",
+      "type": "articles",
+      "content": [
+        {
+          "title": "Creating an AWS Elastic Beanstalk Environment with Pulumi",
+          "link": "https://medium.com/@danielhu95/creating-an-aws-elastic-beanstalk-environment-with-pulumi-5b3b36e7058b",
+          "image": "https://miro.medium.com/max/1400/1*FbjnV9u6amphsFMpEQyhtg.png"
+        },
+        {
+          "title": "以程式碼建立S3+Cloudfront架構並用自動化部署你的React App - Setup your React application S3 + Cloudfront infrastructure and deployment automation with Pulumi & CircleCI",
+          "link": "https://medium.com/@danielhu95/setup-s3-cloudfront-with-pulumi-and-deploy-react-app-with-circleci-b66e2895b78e",
+          "image": "https://miro.medium.com/max/1400/1*OUa5TKoJ_cNMcTxUWJarAg.png"
+        },
+        {
+          "title": "深入淺出搜尋引擎和自然語言處理 - A series of articles about the introduction to NLP and search engines",
+          "link": "https://ithelp.ithome.com.tw/users/20118683/ironman/2141",
+          "image": "https://d1dwq032kyr03c.cloudfront.net/upload/images/20190903/20118683Pu1vzc09KN.png"
+        },
+        {
+          "title": "使用ESLint, Prettier, Husky, Lint-staged以及Commitizen提升專案品質及一致性 - Increase your Javascript projects' quality and consistency with ESLint, Prettier, Husky, Lint-staged, and Commitizen",
+          "link": "https://medium.com/@danielhu95/set-up-eslint-pipeline-zh-tw-990d7d9eb68e",
+          "image": "https://miro.medium.com/max/960/1*D_q_HnasTnCvMNlceR1Ygw.gif"
+        },
+        {
+          "title": "一週花 40 小時唸書，你敢說自己是「全職大學生」嗎？──5 點對比台澳教育差異 - A comparison of the education under the western and eastern culture",
+          "link": "https://crossing.cw.com.tw/article/11205",
+          "image": "https://storage.googleapis.com/crossing-cms-cwg-tw/article/201901/article-5c346649b68df.jpg"
+        }
+      ]
+    },
+    "education": {
+      "sectionTitle": "Education",
+      "type": "education",
+      "content": [
+        {
+          "school": "The University of Melbourne",
+          "degree": "Master of Information Technology",
+          "location": "Melbourne, Australia",
+          "duration": "Jul 2018 - Jun 2020",
+          "description": ["Received the Melbourne School of Engineering Scholarship"],
+          "subjects": [
+            "Stream Compution Algorithm",
+            "Artificial Intellegence",
+            "Natural Language Processing"
+          ]
+        },
+        {
+          "school": "National Chung Hsing University",
+          "degree": "Bachelor of Management Information Systems",
+          "location": "Taichung, Taiwan",
+          "duration": "Sep 2013 - Jun 2017",
+          "description": ["GPA 3.91/4.3, 4 times on the Dean’s List."],
+          "subjects": [
+            "Algorithms & Data Structure",
+            "Calculus",
+            "Database Systems",
+            "Economics, Finance, and Accounting"
+          ]
+        }
+      ]
+    },
+    "awards": {
+      "sectionTitle": "Awards",
+      "type": "awards",
+      "content": [
+        {
+          "title": "Runner-Up of the MYOB 2019 IT Challenge",
+          "date": "Aug 2019",
+          "issuer": "MYOB",
+          "description": [
+            "Managed to come up with a great IT solution to solve real-life needs. Nice teamwork with a fantastic team."
+          ]
+        },
+        {
+          "title": "Melbourne School of Engineering Scholarship",
+          "date": "Jul 2018",
+          "issuer": "University of Melbourne",
+          "description": [
+            "The Melbourne School of Engineering Scholarship is awarded to selected domestic and international Master's students on the basis of academic excellence."
+          ]
+        },
+        {
+          "title": "Innovative Research Award - Intelligence Computing Research Field",
+          "date": "Aug 2017",
+          "issuer": "Ministry of Science and Technology - Taiwan, ROC",
+          "description": [
+            "Research project: \"Image Recognition and Analysis of Metallographic\".",
+            "Won the research award from out of 106 candidates in the field of Intelligence Computing. The candidates were from the best universities in Taiwan."
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "sectionTitle": "Skills",
+      "type": "skills",
+      "description": [
+        "Python for Data processing / Machine Learning / Natural Language Processing (NLP)",
+        "React / Redux + Saga / Mirage.js / Storybook / Jest + Enzyme",
+        "CircleCI / Docker / Pulumi / Terraform (CI/CD + IaC)",
+        "AWS S3, Cloudfront, EC2, ECR, EB, IAM roles & policies management",
+        "Agile Development (SCRUM) / Git"
+      ]
+    }
+  }
+}

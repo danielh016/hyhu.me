@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.css';
+import websiteContent from './websiteContent.json';
+import Navbar from './Navbar';
 
 function App() {
+  const { name } = websiteContent.data.introduction;
+  const websiteContentValues = Object.values(websiteContent.data);
+  const sectionsList = websiteContentValues.filter((value) =>
+    Object.keys(value).includes('sectionTitle')
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Daniel Hu</p>
-      </header>
-    </div>
+    <>
+      <Navbar name={name} sections={sectionsList} />
+    </>
   );
 }
 
