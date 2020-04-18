@@ -2,6 +2,7 @@
   "data": {
     "introduction": {
       "name": "Daniel Hu",
+      "subtitles": ["Software Engineer"],
       "type": "introduction",
       "about": [
         "I'm Daniel, a software developer located in Melbourne, Australia. I was born in Taipei, raised in Brisbane, spent several years studying back in Taiwan, then landed in Melbourne to finish my final degree and start my career. As a software dev, I enjoyed learning new tech and valued experience sharing by writing tech blogs."
