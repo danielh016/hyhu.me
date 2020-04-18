@@ -1,18 +1,13 @@
 import React from 'react';
-import websiteContent from './websiteContent.json';
-import Navbar from './Navbar';
+import { Container } from 'react-bootstrap';
+import { Introduction, Navbar } from './components';
 
 function App() {
-  const { name } = websiteContent.data.introduction;
-  const websiteContentValues = Object.values(websiteContent.data);
-  const sectionsList = websiteContentValues.filter((value) =>
-    Object.keys(value).includes('sectionTitle')
-  );
-
   return (
-    <>
-      <Navbar name={name} sections={sectionsList} />
-    </>
+    <Container fluid style={{ padding: 0 }}>
+      <Navbar />
+      <Introduction />
+    </Container>
   );
 }
 

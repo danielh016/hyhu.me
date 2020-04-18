@@ -1,3 +1,14 @@
+## [0.4.0] - 2020-04-18
+
+### Added
+
+- Added the `Introduction` component
+
+### Changed
+
+- Moved the `Navbar` component from `src/` to `src/components/Navbar/`
+- Added the fading functionality in the navbar
+
 ## [0.3.0] - 2020-03-29
 
 ### Added
