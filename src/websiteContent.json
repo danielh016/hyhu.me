@@ -5,7 +5,7 @@
       "subtitles": ["Software Engineer"],
       "type": "introduction",
       "about": [
-        "I'm Daniel, a software developer who lives in Melbourne and enjoyed learning new techs and valued experience sharing by writing tech blogs."
+        "I'm Daniel, a software developer who lives in Melbourne and valued experience sharing by writing tech blogs."
       ],
       "contact": {
         "email": "dan3388a@gmail.com"
@@ -23,6 +23,7 @@
         {
           "title": "Software Engineer",
           "company": "Skand",
+          "duration": "Sep 2019 - now",
           "description": [
             "Frontend: React, Redux, Saga",
             "Backend: Node",
@@ -44,7 +45,7 @@
           "company": "TC Incubator",
           "duration": "May 2015 - May 2016",
           "description": [
-            "- Agile Developing Environment, trained to work both effectively and flexibly.",
+            "Agile Developing Environment, trained to work both effectively and flexibly.",
             "Improved UI and user workflow of the website, which boosted the signed up users from 15 to 200. According to Google Analysis, the average daily visitors increased from 50 to approximately 300.",
             "Core member of this startup company. Worked closely with the company leader and learned to think both innovatively and critically."
           ]
@@ -108,7 +109,7 @@
             "Algorithms & Data Structure",
             "Calculus",
             "Database Systems",
-            "Economics, Finance, and Accounting"
+            "Finance, and Accounting"
           ]
         }
       ]

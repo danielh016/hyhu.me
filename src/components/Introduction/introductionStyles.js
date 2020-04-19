@@ -29,7 +29,13 @@ export const SideNavbar = styled.div`
 
   a {
     color: ${colors.gold};
+    text-decoration: none;
     text-transform: uppercase;
+
+    :hover {
+      color: ${colors.gray300};
+      transition: 0.4s;
+    }
   }
 `;
 
@@ -37,21 +43,36 @@ export const IntroDetailContainer = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 85vh;
+  height: 87.5vh;
   justify-content: center;
 
   h1 {
     color: ${colors.gold};
+
+    :hover {
+      color: ${colors.gray300};
+      transition: 0.5s;
+    }
   }
 
   h3 {
     color: ${colors.gray300};
+
+    :hover {
+      color: ${colors.gray100};
+      transition: 0.5s;
+    }
   }
 
   p {
     color: ${colors.gray500};
     margin: 1vh 10vh;
     text-align: justify;
+
+    :hover {
+      color: ${colors.gray300};
+      transition: 0.5s;
+    }
   }
 `;
 
@@ -60,12 +81,18 @@ export const IntroDetailImage = styled.img`
   height: 21vh;
   margin: 1vh;
   width: 20vh;
+
+  :hover {
+    height: 22vh;
+    width: 21vh;
+    transition: 0.5s;
+  }
 `;
 
 export const WebsiteLinksContainer = styled.div`
   display: flex;
   flex-direction: row;
-  height: 15vh;
+  height: 12.5vh;
   justify-content: center;
 `;
 
@@ -88,5 +115,6 @@ export const CircleLinks = styled.a`
   :hover {
     background-color: ${colors.gray800};
     color: ${colors.gold};
+    transition: 0.5s;
   }
 `;
