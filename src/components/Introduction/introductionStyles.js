@@ -37,7 +37,7 @@ export const IntroDetailContainer = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 85vh;
   justify-content: center;
 
   h1 {
@@ -62,4 +62,31 @@ export const IntroDetailImage = styled.img`
   width: 20vh;
 `;
 
-export default IntroContainer;
+export const WebsiteLinksContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  justify-content: center;
+`;
+
+export const CircleLinks = styled.a`
+  align-items: center;
+  background-color: ${colors.gray700};
+  border-radius: 50%;
+  color: ${colors.gray300};
+  display: flex;
+  height: 8vh;
+  justify-content: center;
+  margin: 0 1vh;
+  width: 8vh;
+
+  svg {
+    height: 4vh;
+    width: 4vh;
+  }
+
+  :hover {
+    background-color: ${colors.gray800};
+    color: ${colors.gold};
+  }
+`;

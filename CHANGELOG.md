@@ -1,3 +1,16 @@
+## [0.5.0] - 2020-04-19
+
+### Added
+
+- Implemented the `WebsiteLinks` components
+- Added my email into the introduction section
+- Increased the page's responsive level by hidding the side navbar of the introuction section
+- Yarn added `react-icons`
+
+### Changed
+
+- Reduced the length of words of the introduction
+
 ## [0.4.0] - 2020-04-18
 
 ### Added
