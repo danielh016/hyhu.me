@@ -16,7 +16,7 @@ const Introduction = () => {
   const subtitleString = subtitles.join(' / ');
 
   return (
-    <IntroContainer>
+    <IntroContainer id="home">
       <Row style={{ margin: 0 }}>
         <Col lg={6} className="d-none d-lg-block">
           <Sidebar sections={sections} />

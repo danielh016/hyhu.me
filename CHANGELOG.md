@@ -1,3 +1,11 @@
+## [0.6.0] - 2020-04-19
+
+### Added
+
+- Added the `Experience` Section
+- Added the `Education` Section
+- Added hover animations to the components
+
 ## [0.5.0] - 2020-04-19
 
 ### Added
