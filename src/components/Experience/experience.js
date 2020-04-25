@@ -1,5 +1,6 @@
 import React from 'react';
-import { SectionContainer, ElementContainer, ExperienceCard } from './experienceStyles';
+import { SectionContainer, ElementContainer } from './experienceStyles';
+import { ExperienceCard } from './components';
 import websiteContent from '../../websiteContent.json';
 
 const Experience = () => {
@@ -10,15 +11,7 @@ const Experience = () => {
       <h2>Experience</h2>
       <ElementContainer>
         {experiences.map((experience) => (
-          <ExperienceCard>
-            <h3>
-              {experience.title} <span>{experience.duration}</span>
-            </h3>
-            <h4>{experience.company}</h4>
-            {experience.description.map((element) => (
-              <p>- {element}</p>
-            ))}
-          </ExperienceCard>
+          <ExperienceCard experience={experience} />
         ))}
       </ElementContainer>
     </SectionContainer>

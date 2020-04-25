@@ -23,6 +23,7 @@
         {
           "title": "Software Engineer",
           "company": "Skand",
+          "company_image_url": "https://i.imgur.com/1RQUEe5.jpg",
           "duration": "Sep 2019 - now",
           "description": [
             "Frontend: React, Redux, Saga",
@@ -33,6 +34,7 @@
         {
           "title": "Backend Developer",
           "company": "Oma Web Technology",
+          "company_image_url": "https://i.imgur.com/qc2Q0uw.jpg",
           "duration": "Sep 2016 - Mar 2017",
           "description": [
             "Managed to develop and deploy more than five customized SEO websites within three months.",
@@ -43,6 +45,7 @@
         {
           "title": "Software Development Intern",
           "company": "TC Incubator",
+          "company_image_url": "https://i.imgur.com/tACh3MN.jpg",
           "duration": "May 2015 - May 2016",
           "description": [
             "Agile Developing Environment, trained to work both effectively and flexibly.",
@@ -89,6 +92,7 @@
       "content": [
         {
           "school": "The University of Melbourne",
+          "school_image_url": "https://i.imgur.com/U9oicJL.png",
           "degree": "Master of Information Technology",
           "location": "Melbourne, Australia",
           "duration": "Jul 2018 - Jun 2020",
@@ -101,6 +105,7 @@
         },
         {
           "school": "National Chung Hsing University",
+          "school_image_url": "https://i.imgur.com/83E2Yme.jpg",
           "degree": "Bachelor of Management Information Systems",
           "location": "Taichung, Taiwan",
           "duration": "Sep 2013 - Jun 2017",
