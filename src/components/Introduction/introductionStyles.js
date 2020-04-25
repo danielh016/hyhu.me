@@ -77,14 +77,17 @@ export const IntroDetailContainer = styled.div`
 `;
 
 export const IntroDetailImage = styled.img`
+  border-color: ${colors.gray600};
   border-radius: 50%;
-  height: 21vh;
+  border-style: solid;
+  border-width: 5px;
+  height: 22.5vh;
   margin: 1vh;
-  width: 20vh;
+  width: 22vh;
 
   :hover {
-    height: 22vh;
-    width: 21vh;
+    height: 23.5vh;
+    width: 23vh;
     transition: 0.5s;
   }
 `;

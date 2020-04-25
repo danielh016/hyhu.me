@@ -1,3 +1,9 @@
+## [0.7.0] - 2020-04-25
+
+### Added
+
+- Added the company and university icons to the side of each card
+
 ## [0.6.0] - 2020-04-19
 
 ### Added

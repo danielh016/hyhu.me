@@ -17,32 +17,33 @@ export const ElementContainer = styled.div`
   justify-content: center;
 `;
 
-export const EducationCard = styled.div`
+export const CardContainer = styled.div`
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
   margin: 2vh;
-  padding: 4vh;
   width: 75vw;
+
+  :hover {
+    transform: scale(1.01, 1.01);
+    transition: 0.5s;
+  }
+`;
+
+export const DetailsContainer = styled.div`
+  padding: 4vh;
 
   h3 {
     color: ${colors.gold};
-  }
 
-  h3 > span {
-    font-size: 1rem;
-    color: ${colors.gray300};
-  }
-
-  h4 {
-    color: ${colors.gray900};
+    span {
+      font-size: 1rem;
+      color: ${colors.gray300};
+    }
   }
 
   p {
     color: ${colors.gray700};
     margin-left: 2vw;
-  }
-
-  :hover {
-    transform: scale(1.01, 1.01);
-    transition: 0.5s;
   }
 `;
