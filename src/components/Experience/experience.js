@@ -4,11 +4,11 @@ import { ExperienceCard } from './components';
 import websiteContent from '../../websiteContent.json';
 
 const Experience = () => {
-  const { content: experiences } = websiteContent.data.experience;
+  const { content: experiences, type, sectionTitle } = websiteContent.data.experience;
 
   return (
-    <SectionContainer id="experience">
-      <h2>Experience</h2>
+    <SectionContainer id={type}>
+      <h2>{sectionTitle}</h2>
       <ElementContainer>
         {experiences.map((experience) => (
           <ExperienceCard experience={experience} />

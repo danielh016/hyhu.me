@@ -1,3 +1,9 @@
+## [0.8.0] - 2020-04-26
+
+### Added
+
+- Added the `Articles` Section
+
 ## [0.7.0] - 2020-04-25
 
 ### Added

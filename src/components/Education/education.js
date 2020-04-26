@@ -4,11 +4,11 @@ import { EducationCard } from './components';
 import websiteContent from '../../websiteContent.json';
 
 const Education = () => {
-  const { content: educations } = websiteContent.data.education;
+  const { content: educations, type, sectionTitle } = websiteContent.data.education;
 
   return (
-    <SectionContainer id="education">
-      <h2>Education</h2>
+    <SectionContainer id={type}>
+      <h2>{sectionTitle}</h2>
       <ElementContainer>
         {educations.map((education) => (
           <EducationCard education={education} />
