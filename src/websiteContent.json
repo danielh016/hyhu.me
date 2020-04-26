@@ -61,28 +61,38 @@
       "content": [
         {
           "title": "Creating an AWS Elastic Beanstalk Environment with Pulumi",
+          "medium": "Medium",
           "link": "https://medium.com/@danielhu95/creating-an-aws-elastic-beanstalk-environment-with-pulumi-5b3b36e7058b",
-          "image": "https://miro.medium.com/max/1400/1*FbjnV9u6amphsFMpEQyhtg.png"
+          "image": "https://miro.medium.com/max/1400/1*FbjnV9u6amphsFMpEQyhtg.png",
+          "description": "Let’s go through the steps of setting up and deploying an AWS EB environment with Pulumi, who brought the IaC services to another level by allowing DevOps to write codes with their favourite languages."
         },
         {
           "title": "以程式碼建立S3+Cloudfront架構並用自動化部署你的React App - Setup your React application S3 + Cloudfront infrastructure and deployment automation with Pulumi & CircleCI",
+          "medium": "Medium",
           "link": "https://medium.com/@danielhu95/setup-s3-cloudfront-with-pulumi-and-deploy-react-app-with-circleci-b66e2895b78e",
-          "image": "https://miro.medium.com/max/1400/1*OUa5TKoJ_cNMcTxUWJarAg.png"
-        },
-        {
-          "title": "深入淺出搜尋引擎和自然語言處理 - A series of articles about the introduction to NLP and search engines",
-          "link": "https://ithelp.ithome.com.tw/users/20118683/ironman/2141",
-          "image": "https://d1dwq032kyr03c.cloudfront.net/upload/images/20190903/20118683Pu1vzc09KN.png"
-        },
-        {
-          "title": "使用ESLint, Prettier, Husky, Lint-staged以及Commitizen提升專案品質及一致性 - Increase your Javascript projects' quality and consistency with ESLint, Prettier, Husky, Lint-staged, and Commitizen",
-          "link": "https://medium.com/@danielhu95/set-up-eslint-pipeline-zh-tw-990d7d9eb68e",
-          "image": "https://miro.medium.com/max/960/1*D_q_HnasTnCvMNlceR1Ygw.gif"
+          "image": "https://miro.medium.com/max/1400/1*OUa5TKoJ_cNMcTxUWJarAg.png",
+          "description": "Spend your time wisely, setup your S3 + Cloudfront with code using Pulumi and automate your React App CI/CD pipeline with CircleCI."
         },
         {
           "title": "一週花 40 小時唸書，你敢說自己是「全職大學生」嗎？──5 點對比台澳教育差異 - A comparison of the education under the western and eastern culture",
+          "medium": "換日線 Crossing",
           "link": "https://crossing.cw.com.tw/article/11205",
-          "image": "https://storage.googleapis.com/crossing-cms-cwg-tw/article/201901/article-5c346649b68df.jpg"
+          "image": "https://storage.googleapis.com/crossing-cms-cwg-tw/article/201901/article-5c346649b68df.jpg",
+          "description": "從澳洲高等教育看台灣 修了 27 門課的大學二年級 vs 「我建議你這學期不要修超過 4 門課」"
+        },
+        {
+          "title": "使用ESLint, Prettier, Husky, Lint-staged以及Commitizen提升專案品質及一致性 - Increase your Javascript projects' quality and consistency with ESLint, Prettier, Husky, Lint-staged, and Commitizen",
+          "medium": "Medium",
+          "link": "https://medium.com/@danielhu95/set-up-eslint-pipeline-zh-tw-990d7d9eb68e",
+          "image": "https://miro.medium.com/max/960/1*D_q_HnasTnCvMNlceR1Ygw.gif",
+          "description": "一系列幫助撰寫乾淨程式碼和提升團隊程式一致性的利器。"
+        },
+        {
+          "title": "深入淺出搜尋引擎和自然語言處理 - A series of articles about the introduction to NLP and search engines",
+          "medium": "iT 邦幫忙",
+          "link": "https://ithelp.ithome.com.tw/users/20118683/ironman/2141",
+          "image": "https://d1dwq032kyr03c.cloudfront.net/upload/images/20190903/20118683Pu1vzc09KN.png",
+          "description": "自然語言處理是一門結合了人工智慧及語言學的學科。在墨爾本大學攻讀碩士的第一年，我接觸到了自然語言處理這個學門，從此愛上了它，之後的研究也因此朝這方向走下去。"
         }
       ]
     },

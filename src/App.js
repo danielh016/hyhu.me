@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Education, Experience, Introduction, Navbar } from './components';
+import { Articles, Education, Experience, Introduction, Navbar } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <Introduction />
       <Experience />
+      <Articles />
       <Education />
     </Container>
   );
