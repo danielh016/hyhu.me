@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { DetailsContainer } from '../experienceStyles';
+import { DetailsContainer } from './experienceStyles';
 
 const PositionDetails = (props) => {
-  const { experience } = props;
+  const { content: experience } = props;
 
   return (
     <DetailsContainer>
@@ -18,7 +18,7 @@ const PositionDetails = (props) => {
 };
 
 PositionDetails.propTypes = {
-  experience: PropTypes.shape().isRequired,
+  content: PropTypes.shape().isRequired,
 };
 
 export default PositionDetails;

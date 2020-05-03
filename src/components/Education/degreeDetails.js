@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { DetailsContainer } from '../educationStyles';
+import { DetailsContainer } from './educationStyles';
 
 const getSubjectHighlight = (subjects) => {
   const subjectString = subjects.join(', ');
@@ -8,7 +8,7 @@ const getSubjectHighlight = (subjects) => {
 };
 
 const DegreeDetails = (props) => {
-  const { education } = props;
+  const { content: education } = props;
 
   return (
     <DetailsContainer>
@@ -27,7 +27,7 @@ const DegreeDetails = (props) => {
 };
 
 DegreeDetails.propTypes = {
-  education: PropTypes.shape().isRequired,
+  content: PropTypes.shape().isRequired,
 };
 
 export default DegreeDetails;

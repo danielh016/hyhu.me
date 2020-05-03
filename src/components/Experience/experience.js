@@ -1,20 +1,18 @@
 import React from 'react';
-import { SectionContainer, ElementContainer } from './experienceStyles';
-import { ExperienceCard } from './components';
+import PositionDetails from './positionDetails';
+import { WideCardSection } from '../../common';
 import websiteContent from '../../websiteContent.json';
 
 const Experience = () => {
-  const { content: experiences, type, sectionTitle } = websiteContent.data.experience;
+  const { content, type, sectionTitle } = websiteContent.data.experience;
 
   return (
-    <SectionContainer id={type}>
-      <h2>{sectionTitle}</h2>
-      <ElementContainer>
-        {experiences.map((experience) => (
-          <ExperienceCard experience={experience} />
-        ))}
-      </ElementContainer>
-    </SectionContainer>
+    <WideCardSection
+      sectionTitle={sectionTitle}
+      type={type}
+      content={content}
+      DetailsComponent={PositionDetails}
+    />
   );
 };
 

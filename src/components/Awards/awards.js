@@ -1,19 +1,19 @@
 import React from 'react';
-import DegreeDetails from './degreeDetails';
+import AwardDetails from './awardDetails';
 import { WideCardSection } from '../../common';
 import websiteContent from '../../websiteContent.json';
 
-const Education = () => {
-  const { content, type, sectionTitle } = websiteContent.data.education;
+const Awards = () => {
+  const { content, type, sectionTitle } = websiteContent.data.awards;
 
   return (
     <WideCardSection
       sectionTitle={sectionTitle}
       type={type}
       content={content}
-      DetailsComponent={DegreeDetails}
+      DetailsComponent={AwardDetails}
     />
   );
 };
 
-export default Education;
+export default Awards;

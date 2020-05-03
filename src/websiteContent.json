@@ -22,8 +22,8 @@
       "content": [
         {
           "title": "Software Engineer",
-          "company": "Skand",
-          "company_image_url": "https://i.imgur.com/1RQUEe5.jpg",
+          "organization": "Skand",
+          "image_url": "https://i.imgur.com/1RQUEe5.jpg",
           "duration": "Sep 2019 - now",
           "description": [
             "Frontend: React, Redux, Saga",
@@ -33,8 +33,8 @@
         },
         {
           "title": "Backend Developer",
-          "company": "Oma Web Technology",
-          "company_image_url": "https://i.imgur.com/qc2Q0uw.jpg",
+          "organization": "Oma Web Technology",
+          "image_url": "https://i.imgur.com/qc2Q0uw.jpg",
           "duration": "Sep 2016 - Mar 2017",
           "description": [
             "Managed to develop and deploy more than five customized SEO websites within three months.",
@@ -44,8 +44,8 @@
         },
         {
           "title": "Software Development Intern",
-          "company": "TC Incubator",
-          "company_image_url": "https://i.imgur.com/tACh3MN.jpg",
+          "organization": "TC Incubator",
+          "image_url": "https://i.imgur.com/tACh3MN.jpg",
           "duration": "May 2015 - May 2016",
           "description": [
             "Agile Developing Environment, trained to work both effectively and flexibly.",
@@ -101,8 +101,8 @@
       "type": "education",
       "content": [
         {
-          "school": "The University of Melbourne",
-          "school_image_url": "https://i.imgur.com/U9oicJL.png",
+          "organization": "The University of Melbourne",
+          "image_url": "https://i.imgur.com/U9oicJL.png",
           "degree": "Master of Information Technology",
           "location": "Melbourne, Australia",
           "duration": "Jul 2018 - Jun 2020",
@@ -114,8 +114,8 @@
           ]
         },
         {
-          "school": "National Chung Hsing University",
-          "school_image_url": "https://i.imgur.com/83E2Yme.jpg",
+          "organization": "National Chung Hsing University",
+          "image_url": "https://i.imgur.com/83E2Yme.jpg",
           "degree": "Bachelor of Management Information Systems",
           "location": "Taichung, Taiwan",
           "duration": "Sep 2013 - Jun 2017",
@@ -134,25 +134,28 @@
       "type": "awards",
       "content": [
         {
-          "title": "Runner-Up of the MYOB 2019 IT Challenge",
+          "title": "Runner-Up of the 2019 IT Challenge",
           "date": "Aug 2019",
-          "issuer": "MYOB",
+          "organization": "MYOB",
+          "image_url": "https://i.imgur.com/SAtZtxf.jpg",
           "description": [
             "Managed to come up with a great IT solution to solve real-life needs. Nice teamwork with a fantastic team."
           ]
         },
         {
-          "title": "Melbourne School of Engineering Scholarship",
+          "title": "School of Engineering Scholarship",
           "date": "Jul 2018",
-          "issuer": "University of Melbourne",
+          "organization": "University of Melbourne",
+          "image_url": "https://i.imgur.com/U9oicJL.png",
           "description": [
             "The Melbourne School of Engineering Scholarship is awarded to selected domestic and international Master's students on the basis of academic excellence."
           ]
         },
         {
-          "title": "Innovative Research Award - Intelligence Computing Research Field",
+          "title": "Innovative Research Award",
           "date": "Aug 2017",
-          "issuer": "Ministry of Science and Technology - Taiwan, ROC",
+          "organization": "Ministry of Science and Technology - Taiwan, ROC",
+          "image_url": "https://i.imgur.com/MqXVJI4.jpg",
           "description": [
             "Research project: \"Image Recognition and Analysis of Metallographic\".",
             "Won the research award from out of 106 candidates in the field of Intelligence Computing. The candidates were from the best universities in Taiwan."
