@@ -1,3 +1,10 @@
+## [0.9.0] - 2020-05-03
+
+### Added
+
+- Added the `Awards` Section
+- Pulled out most duplicated codes to form the `WideCardsSection` component
+
 ## [0.8.0] - 2020-04-26
 
 ### Added
