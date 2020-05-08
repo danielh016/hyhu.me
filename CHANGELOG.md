@@ -1,3 +1,15 @@
+## [0.10.0] - 2020-05-08
+
+### Added
+
+- Added Google Analytics
+- Yarn added `react-ga`
+- Added `key`s to the mapped elements
+
+### Changed
+
+- Corrected the prop-types declarations
+
 ## [0.9.0] - 2020-05-03
 
 ### Added

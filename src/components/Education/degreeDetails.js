@@ -16,7 +16,7 @@ const DegreeDetails = (props) => {
         {education.degree} <span>{education.duration}</span>
       </h3>
       {education.description.map((element) => (
-        <p>- {element}</p>
+        <p key={element}>- {element}</p>
       ))}
       <p>
         <span style={{ fontWeight: 'bold' }}>Subject Highlight</span>:{' '}

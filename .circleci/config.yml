@@ -49,6 +49,6 @@ workflows:
           context: Daniel-Personal-Website
           requires:
             - test-and-build-staging
-          filters:
-            branches:
-              only: master
+          # filters:
+          #   branches:
+          #     only: master

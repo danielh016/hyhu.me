@@ -11,7 +11,7 @@ const Articles = () => {
       <h2>{sectionTitle}</h2>
       <ElementContainer>
         {articles.map((article) => (
-          <ArticleCard article={article} />
+          <ArticleCard key={article.title} article={article} />
         ))}
       </ElementContainer>
     </SectionContainer>

@@ -11,7 +11,7 @@ const PositionDetails = (props) => {
         {experience.title} <span>{experience.duration}</span>
       </h3>
       {experience.description.map((element) => (
-        <p>- {element}</p>
+        <p key={element}>- {element}</p>
       ))}
     </DetailsContainer>
   );

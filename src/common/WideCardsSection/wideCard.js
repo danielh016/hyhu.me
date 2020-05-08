@@ -25,7 +25,7 @@ const WideCard = (props) => {
 
 WideCard.propTypes = {
   content: PropTypes.shape().isRequired,
-  DetailsComponent: PropTypes.node.isRequired,
+  DetailsComponent: PropTypes.func.isRequired,
 };
 
 export default WideCard;

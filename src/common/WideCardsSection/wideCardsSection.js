@@ -11,7 +11,11 @@ const WideCardSection = (props) => {
       <h2>{sectionTitle}</h2>
       <ElementContainer>
         {contents.map((content) => (
-          <WideCard content={content} DetailsComponent={DetailsComponent} />
+          <WideCard
+            key={content.organization}
+            content={content}
+            DetailsComponent={DetailsComponent}
+          />
         ))}
       </ElementContainer>
     </SectionContainer>
@@ -22,7 +26,7 @@ WideCardSection.propTypes = {
   content: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   type: PropTypes.string,
   sectionTitle: PropTypes.string,
-  DetailsComponent: PropTypes.node,
+  DetailsComponent: PropTypes.func,
 };
 
 const DefaultDetailsComponent = () => <></>;

@@ -22,7 +22,7 @@ const IntroDetail = (props) => {
 IntroDetail.propTypes = {
   name: PropTypes.string.isRequired,
   subtitleString: PropTypes.string.isRequired,
-  about: PropTypes.string.isRequired,
+  about: PropTypes.arrayOf(PropTypes.string).isRequired,
   contact: PropTypes.shape().isRequired,
   profileImage: PropTypes.node.isRequired,
 };
