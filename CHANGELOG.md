@@ -1,3 +1,14 @@
+## [0.10.0] - 2021-04-10
+
+### Added
+
+- Yarn added `react-router-dom`
+- Added the `MothersDay2021` page
+
+### Changed
+
+- Moved the components of the personal website to the `Home` page
+
 ## [0.9.0] - 2020-05-03
 
 ### Added

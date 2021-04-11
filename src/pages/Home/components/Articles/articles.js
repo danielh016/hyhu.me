@@ -1,5 +1,5 @@
 import React from 'react';
-import websiteContent from '../../websiteContent.json';
+import websiteContent from '../../data/websiteContent.json';
 import { SectionContainer, ElementContainer } from './articlesStyles';
 import { ArticleCard } from './components';
 

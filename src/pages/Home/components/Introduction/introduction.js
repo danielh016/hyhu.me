@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 import { IntroContainer } from './introductionStyles';
 import { Sidebar, IntroDetail, WebsiteLinks } from './components';
 
-import websiteContent from '../../websiteContent.json';
+import websiteContent from '../../data/websiteContent.json';
 import ProfileImage from './utils/headicon.png';
 
 const Introduction = () => {

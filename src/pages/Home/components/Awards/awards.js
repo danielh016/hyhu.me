@@ -1,7 +1,7 @@
 import React from 'react';
 import AwardDetails from './awardDetails';
 import { WideCardSection } from '../../common';
-import websiteContent from '../../websiteContent.json';
+import websiteContent from '../../data/websiteContent.json';
 
 const Awards = () => {
   const { content, type, sectionTitle } = websiteContent.data.awards;
