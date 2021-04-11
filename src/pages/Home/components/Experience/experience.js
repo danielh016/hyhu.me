@@ -1,7 +1,7 @@
 import React from 'react';
 import PositionDetails from './positionDetails';
 import { WideCardSection } from '../../common';
-import websiteContent from '../../websiteContent.json';
+import websiteContent from '../../data/websiteContent.json';
 
 const Experience = () => {
   const { content, type, sectionTitle } = websiteContent.data.experience;

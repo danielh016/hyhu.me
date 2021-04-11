@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Fade } from 'react-bootstrap';
 import { StyledNavbar, StyledNav } from './navbarStyles';
-import websiteContent from '../../websiteContent.json';
+import websiteContent from '../../data/websiteContent.json';
 
 const Navbar = () => {
   const { name } = websiteContent.data.introduction;

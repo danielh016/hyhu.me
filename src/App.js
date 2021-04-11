@@ -1,18 +1,21 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
-import { Articles, Awards, Education, Experience, Introduction, Navbar } from './components';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { Home, MothersDay2021 } from './pages';
 
-function App() {
+const App = () => {
   return (
-    <Container fluid style={{ padding: 0 }}>
-      <Navbar />
-      <Introduction />
-      <Experience />
-      <Articles />
-      <Awards />
-      <Education />
-    </Container>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/mothers-day-2021">
+          <MothersDay2021 />
+        </Route>
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
