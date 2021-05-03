@@ -1,36 +1,39 @@
+import FathersSideGrandmaAdditionalImage from '../assets/fathersSideAdditional.jpg';
 import FathersSideGrandmaImage from '../assets/fathersSide.jpg';
 import MomAdditionalImage from '../assets/momAdditional.jpg';
 import MomImage from '../assets/mom.jpg';
+import MothersSideGrandmaAdditionalImage from '../assets/mothersSideAdditional.jpg';
 import MothersSideGrandmaImage from '../assets/mothersSide.jpg';
 
 const selectPhoto = (key) => {
   switch (key) {
     case 'fathersSideGrandma':
-      return FathersSideGrandmaImage;
+      return {
+        photo: FathersSideGrandmaImage,
+        additionalPhoto: FathersSideGrandmaAdditionalImage,
+      };
     case 'mothersSideGrandma':
-      return MothersSideGrandmaImage;
+      return {
+        photo: MothersSideGrandmaImage,
+        additionalPhoto: MothersSideGrandmaAdditionalImage,
+      };
     case 'mom':
-      return MomImage;
+      return {
+        photo: MomImage,
+        additionalPhoto: MomAdditionalImage,
+      };
     default:
-      return '';
+      return {};
   }
 };
 
 const assignLetterPhoto = (letters) => {
   return letters.map((letter) => {
-    const photo = selectPhoto(letter.key);
-
-    if (letter.key === 'mom') {
-      return {
-        ...letter,
-        photo,
-        additionalPhoto: MomAdditionalImage,
-      };
-    }
+    const photoObject = selectPhoto(letter.key);
 
     return {
       ...letter,
-      photo,
+      ...photoObject,
     };
   });
 };

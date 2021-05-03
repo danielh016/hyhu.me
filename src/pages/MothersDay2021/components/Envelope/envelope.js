@@ -8,10 +8,10 @@ import EnvelopeImage from '../../assets/envelope.png';
 
 const Envelope = ({ onToggleMail, isLargeScreen }) => {
   return (
-    <ImageContainer onClick={onToggleMail} isLargeScreen={isLargeScreen}>
+    <ImageContainer isLargeScreen={isLargeScreen}>
       <EnvelopeImageComponent src={EnvelopeImage} alt="Envelope" />
       <ImageOverlay>
-        <Button>拆開這封信</Button>
+        <Button onClick={onToggleMail}>拆開這封信</Button>
       </ImageOverlay>
     </ImageContainer>
   );
