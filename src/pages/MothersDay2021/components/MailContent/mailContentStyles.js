@@ -38,7 +38,6 @@ export const MailPhoto = styled.img`
   ${(props) =>
     props.position.left &&
     `
-      float: left;
       margin-right: 2em;
 
       :hover {
