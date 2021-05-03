@@ -1,3 +1,25 @@
+## [0.10.3] - 2021-05-03
+
+### Added
+
+- Added the mail content
+
+## [0.10.2] - 2021-05-03
+
+### Added
+
+- Added Cloudfront Distribution invalidation step in the ci pipeline
+
+## [0.10.1] - 2021-05-03
+
+### Added
+
+- Added `fathersSideAdditional.jpg` and `mothersSideAdditional.jpg`
+
+### Changed
+
+- Updated the envelope to show different photo styles in different screen size
+
 ## [0.10.0] - 2021-04-10
 
 ### Added
