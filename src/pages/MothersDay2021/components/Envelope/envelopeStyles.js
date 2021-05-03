@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const ImageOverlay = styled.div`
-  transition: 0.5s ease;
+  left: 50%;
   opacity: 0;
   position: absolute;
+  text-align: center;
   top: 50%;
-  left: 50%;
+  transition: 0.5s ease;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
 `;
 
 export const EnvelopeImageComponent = styled.img`
